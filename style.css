@@ -1,0 +1,66 @@
+/* 通用 */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-shadow: 10px 10px 20px rgb(136, 232, 151); */
+    box-sizing: border-box;
+}
+/* 导航 */
+.dh{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+    padding: 0px 5%;
+}
+
+.dh a{
+    text-decoration: none;
+    font-size: 50px;
+    /* font-family: "微软雅黑"; */
+    color: azure;
+}
+/* 导航栏+footer */
+.dh,.yj{
+    width: 100%;
+    background-color: #d584fa;
+}
+/* 横幅 */
+.hf{
+    width: 100%;
+    height: 1000px;
+    object-fit:cover ;
+}
+body{
+    padding: 0px 15%;
+}
+
+/* 页脚 */
+.yj{
+    height: 100px;
+    line-height: 100px;
+}
+.yj2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color:rgb(240, 128, 190);
+    font-size: 30px;
+    font-family: "黑体";
+    font-weight: bolder;
+    color: bisque;
+    text-align: center;
+}
+
+.yj3{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color:lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
